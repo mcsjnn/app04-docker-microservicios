@@ -1,4 +1,4 @@
-onst express = require('express');
+const express = require('express');
 const app = express();
 const clientes = require('./routes/clientes');
 const productos = require('./routes/productos');
